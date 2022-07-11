@@ -24,13 +24,6 @@
   background: #2f80ed;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-  margin-right: 0;
-  color: white;
-}
-
 .logo {
   position: absolute;
 }
@@ -273,6 +266,8 @@
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  margin-right: 0;
+  color: white;
 }
 
 .table__heading_theme_dark {
