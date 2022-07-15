@@ -12,6 +12,8 @@
   min-height: 600px;
   max-height: 756px;
   align-items: center;
+  background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .header__square-pic {
@@ -126,7 +128,7 @@
   flex-direction: column;
   width: 1100px;
   margin: auto;
-  padding-top: 100px;
+  padding: 100px 0;
   align-items: center;
 }
 
@@ -185,6 +187,8 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 867px 637px;
+  background-color: #f2f2f2;
+  padding-top: 100px;
 }
 
 .feynman__title {
