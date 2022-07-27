@@ -10,16 +10,12 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="./images/logo_place_header.svg"
-          class="logo logo_place_header"
-          alt="Логотип"
-        />
+        <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a class="header__link" href="#">Узнать →</a>
+          <div class="header__link">Узнать →</div>
         </p>
         <img
           src="./images/header-image.png"
@@ -105,7 +101,7 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <h3 class="feynman__subtitle">Выучить и не забыть</h3>
-          <a class="feynman__link" href="#">Подробнее →</a>
+          <div class="feynman__link" href="#">Подробнее →</div>
         </section>
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
@@ -182,19 +178,17 @@
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-            <img
-              src="./images/logo_place_footer.svg"
-              class="logo logo_place_footer"
-              alt="Логотип"
-            />
+            <div class="logo logo_place_footer"></div>
             <p class="footer__author">&copy Угай Ирина</p>
           </div>
           <div class="footer__column footer__column_content_info">
-            <h4 class="footer__column-heading">О Практикуме</h4>
-            <nav class="footer__column-links">
-              <a class="footer__column-link" href="#">Главная</a>
-              <a class="footer__column-link" href="#">Концепция</a>
-              <a class="footer__column-link" href="#">Наставники</a>
+            <h3 class="footer__column-heading">О Практикуме</h3>
+            <nav>
+              <ul class="footer__column-links">
+                <li><a class="footer__column-link" href="#">Главная</a></li>
+                <li><a class="footer__column-link" href="#">Концепция</a></li>
+                <li><a class="footer__column-link" href="#">Наставники</a></li>
+              </ul>
             </nav>
           </div>
           <div class="footer__column footer__column_content_social">
