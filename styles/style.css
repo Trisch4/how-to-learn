@@ -27,6 +27,8 @@
 }
 
 .logo {
+  background-image: url(../images/logo_place_header.svg);
+  background-repeat: no-repeat;
   width: 228px;
   height: 32px;
 }
@@ -71,7 +73,6 @@
 }
 
 .header__link {
-  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -213,7 +214,6 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  text-decoration: none;
   color: #2f80ed;
   font-size: 36px;
   font-weight: normal;
@@ -312,8 +312,13 @@
 }
 
 .footer__column-links {
+  margin: 0;
   padding: 0;
   padding-bottom: 16px;
+}
+
+.footer__column-links > li {
+  list-style: none;
 }
 
 .footer__column-links > li {
