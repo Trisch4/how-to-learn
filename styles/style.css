@@ -321,10 +321,6 @@
   list-style: none;
 }
 
-.footer__column-links > li {
-  list-style: none;
-}
-
 .footer__column-link {
   display: flex;
   text-decoration: none;
